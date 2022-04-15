@@ -1,7 +1,7 @@
-# JavaSpringUppgift1
+# JavaSpringDropbox
 
 ## Description
-A minimum viable product for the Java Spring Dropbox assignmnet (Inlämningsuppgift 1 for the Java Spring - Spring 2022 course at Teknikhögskolan). Created RESTful APIs in Java Spring for a user to create an account and then use that account (as basic authentication) to upload, view, download, and delete files from the server. This is a similar concept to Dropbox.
+A minimum viable product for the Java Spring Dropbox assignmnet (Inlämningsuppgift 1 for the Java Spring - Spring 2022 course at Teknikhögskolan). Created RESTful APIs in Java Spring for a user to create an account and then use that account (as basic authentication) to upload, view, download, and delete files from the server. This is a similar concept to Dropbox or Google Drive.
 
 ## Prerequisites
 1. **MySQL** installed
