@@ -13,15 +13,10 @@ public class UserController {
     @Autowired
     private UserRepository userRepository;
 
-    @GetMapping(path="/user")
-    public @ResponseBody User getUser (@RequestParam String username) {
-        return userRepository.findByUsername(username);
-    }
-
     @PostMapping(path="/user")
     public @ResponseBody ResponseEntity<Resource> addUser (@RequestParam String username, @RequestParam String password) {
         if (userRepository.findByUsername(username) != null) {
-            return new ResponseEntity("User Already Exists", HttpStatus.OK);
+            return new ResponseEntity("User Already Exists", HttpStatus.CONFLICT);
         } else {
             User user = new User();
             user.setUsername(username);

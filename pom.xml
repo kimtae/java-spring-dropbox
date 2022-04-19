@@ -11,8 +11,8 @@
 	<groupId>com.uppgift</groupId>
 	<artifactId>dropbox</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>dropbox</name>
-	<description>Java Spring Inlämningsuppgift 1</description>
+	<name>java-spring-dropbox</name>
+	<description>Java Spring Dropbox</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>

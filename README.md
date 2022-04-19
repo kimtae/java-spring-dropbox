@@ -18,7 +18,7 @@ A minimum viable product for the Java Spring Dropbox assignmnet (Inlämningsuppg
 2. Run the **DropboxAppliction.java** file from this repository in your preferred IDE
 
 ### Create User
-1. Call GET method on path localhost:8080/user with parameters username and password (no authentication required)
+1. Call POST method on path localhost:8080/user with parameters username and password (no authentication required)
 2. Verify that this user now exists in the user table with encrypted password (use this user as basic authentication for the rest of the test calls)
 
 ### Upload File
